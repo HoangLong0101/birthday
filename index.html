@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Animation</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="birthday.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main content">
+        <button onclick="doSomething()" style="position: absolute;
+        top: 5%;
+        left: 42.5%;
+        background-color: #008CBA;
+        border-radius: 5%;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;">Chị bấm vào đây đi :></button>
+        <h1 id="test"></h1>
+        <script>
+            function doSomething() {
+                document.getElementById("test").innerHTML ="Chúc chị Quyên xinh đẹp đáng yêu nhất trần đời sinh nhật vui vẻ nhaaa";
+            }
+        </script>
+    <div class="container">
+      <div class="cake">
+        <div class="candle"></div>
+        <div class="top-layer"></div>
+        <div class="middle-layer"></div>
+        <div class="bottom-layer"></div>
+      </div>
+    </div>
+    <canvas id="canvas">Canvas is not supported in your browser!</canvas>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
